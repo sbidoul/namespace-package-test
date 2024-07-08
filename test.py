@@ -8,8 +8,7 @@ import myframework.plugins.plugin3
 print(myframework.name)
 
 if typing.TYPE_CHECKING:
-    typing.reveal_type(myframework)
     typing.reveal_type(myframework.name)
-    typing.reveal_type(myframework.plugins.plugin1)
-    typing.reveal_type(myframework.plugins.plugin2)
-    typing.reveal_type(myframework.plugins.plugin3)
+    typing.reveal_type(myframework.plugins.plugin1.name)
+    typing.reveal_type(myframework.plugins.plugin2.name)
+    typing.reveal_type(myframework.plugins.plugin3.name)
