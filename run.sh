@@ -3,7 +3,7 @@ python3 -m venv .venv
 . .venv/bin/activate
 pip install mypy pyright
 
-export PYTHONPATH=src/main:src/extplugin1 
+export $(cat .env | xargs)
 
 echo "-------- python -------- "
 python3 test.py
