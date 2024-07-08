@@ -1,0 +1,1 @@
+print("imported", __name__, "in", __path__)

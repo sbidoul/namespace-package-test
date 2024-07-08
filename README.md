@@ -1,0 +1,1 @@
+# Test type checkers with namespace packages
